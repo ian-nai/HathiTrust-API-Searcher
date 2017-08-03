@@ -9,7 +9,7 @@ h1 {
 
 h1:after {
 	content: "HathiTrust Searcher";
-	position: absolute; left: 339px; top: 40px;
+	position: absolute; left: 375px; top: 40px;
 	color: rgba(7,169,195,0.65);  
 } 
 
