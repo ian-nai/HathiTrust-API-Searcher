@@ -4,6 +4,7 @@ h1 {
     font-size: 4em;
     text-align: center;
     line-height: 90%;
+    text-shadow: 0 0 3px rgba(7,169,195,0.65); 
 }
 
 
