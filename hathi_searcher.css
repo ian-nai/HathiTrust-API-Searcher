@@ -7,13 +7,6 @@ h1 {
 }
 
 
-h1:after {
-	content: "HathiTrust Searcher";
-	text-align: center;
-	color: rgba(7,169,195,0.65);  
-} 
-
-
 h2 {
     color: black;
     font-family: arial;
