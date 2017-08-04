@@ -71,6 +71,7 @@ div.tab button {
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 1em;
+    position: relative;
     text-align: center;
 }
 
