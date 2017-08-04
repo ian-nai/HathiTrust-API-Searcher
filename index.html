@@ -10,16 +10,19 @@
     <h1>
     HathiTrust Searcher
     </h1>
-     <body>
+    <body>
        <h2>
         <p>Use the fields below to search HathiTrust for bibliographic data using an OCLC number, ISBN, or HathiTrust Volume Identifier.</p>
        </h2>
+      
        <br />
+      
        <div class="tab">
-       <button class="tablinks" onclick="openCity(event, 'ht_id')">Search by HathiTrust ID</button>
-      <button class="tablinks" onclick="openCity(event, 'ISBN')">Search by ISBN</button>
-      <button class="tablinks" onclick="openCity(event, 'OCLC')">Search by OCLC #</button>
+         <button class="tablinks" onclick="openSearch(event, 'OCLC')">Search by OCLC #</button>
+         <button class="tablinks" onclick="openSearch(event, 'ISBN')">Search by ISBN</button>
+         <button class="tablinks" onclick="openSearch(event, 'ht_id')">Search by HathiTrust ID</button>
        </div>
+      
        <div id="OCLC" class="tabcontent">
        <h3>
         <p> Search by OCLC number:<input type="int" id="oclc_search"></p>
@@ -61,6 +64,7 @@
         </p>
         </h3>
         </div>
+      
        <script>
         function hathi_vol() {
            var z = document.getElementById("hathi_vol_search").value;
@@ -69,7 +73,8 @@
         }
         </script>
         <script>
-        function openCity(evt, cityName) {
+          
+        function openSearch(evt, searchName) {
     // Declare all variables
     var i, tabcontent, tablinks;
 
